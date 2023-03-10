@@ -7,7 +7,7 @@
 $ipaddress = $_SERVER["REMOTE_ADDR"];
 $user = htmlentities($_POST['user'], ENT_QUOTES, "UTF-8");
 $pass = htmlentities($_POST['pass'], ENT_QUOTES, "UTF-8");
-$link = mysqli_connect( "sql207.epizy.com" , "epiz_32991396", "Y8UqQRCI2s", "epiz_32991396_z3");
+$link = mysqli_connect( "sql207.epizy.com" , "epiz_32991396", "xxx", "epiz_32991396_z3");
 if (!$link) {
     echo "Błąd: " . mysqli_connect_errno() . " " . mysqli_connect_error();
 } // obsługa błędu połączenia z BD
